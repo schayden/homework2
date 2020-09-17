@@ -1,5 +1,5 @@
 body {
-font-family: "Lucida Grande", Arial, sans-serif;
+font-family: "Lucida Grande", sans-serif;
 color: #FFFFFF;
 background-color: #000000;
 padding:25px;
@@ -38,11 +38,11 @@ img{
     width: 525px;
 }
 div{
-    height: 150px;
+    min-height: 150px;
     padding: 25px;
 }
 #intro{
-	height: 150px;
+	min-height: 150px;
 }
 
 #red{
@@ -61,7 +61,6 @@ div{
     color:#000000;
     text-shadow: 5px 5px 2px #c7e2c7;
 }
-
 #yellow p{
     color:#000000;
 }
